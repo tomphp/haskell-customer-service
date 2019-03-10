@@ -8,7 +8,6 @@ import Test.Hspec.Wai
 import Test.Hspec.Wai.JSON
 
 import CustomerService.Domain.Customer
-import CustomerService.Domain.UseCases
 import qualified CustomerService.Application.Web as Web
 
 newtype MockUseCases a = MockUseCases { runMockUseCases :: IO a }

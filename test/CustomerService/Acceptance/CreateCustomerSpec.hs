@@ -15,7 +15,6 @@ import Network.Wai (Application)
 import Network.Wai.Test (SResponse(..))
 
 import qualified CustomerService.Application.Web as Web
-import qualified CustomerService.Domain.Customer as C
 
 import qualified CustomerService.Mock.App as MockedApp
 
